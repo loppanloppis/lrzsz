@@ -1546,7 +1546,8 @@ usage(int exitcode, const char *what)
 
 	fprintf(f, _("%s version %s\n"), program_name,
 		VERSION);
-
+        fprintf(f,_("Modified and optimized for SklaffKOM 2025-07-24\n"));
+        fprintf(f,_("\n"));	
 	fprintf(f,_("Usage: %s [options] file ...\n"),
 		program_name);
 	fprintf(f,_("   or: %s [options] -{c|i} COMMAND\n"),program_name);
